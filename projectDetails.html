@@ -41,8 +41,39 @@ a.varlink { text-decoration:none; }
 
 
 <style type="text/css">#header { border-bottom: none; }</style>
+
+<script>
+  function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+  }
+
+
+  function checkNameAndAccesscode(){
+    // var name = getUrlParam('text','');
+    var accessCode = prompt("Input access code for this project: ", "");
+    var textValue="";
+    if(accessCode=="hungInvocMap"){
+      textValue="<iframe src=\"./presentations/InvocMap.pdf#toolbar=0\" width=\"100%\" height=\"1000px\"></iframe>";
+    } else if (accessCode=="hungPrefixMap"){
+      textValue="<iframe src=\"./presentations/PrefixMap.pdf#toolbar=0\" width=\"100%\" height=\"1000px\"></iframe>";
+    } else if (accessCode=="hungCLPA"){
+      textValue="<iframe src=\"./presentations/CLPA.pdf#toolbar=0\" width=\"100%\" height=\"1000px\"></iframe>";
+    } else{
+      textValue="<p>Sorry. The access code is incorrect or the project description hasn't been uploaded yet!</p>"
+    }
+
+    var divProjectDescription = document.getElementById("divProjectDescription");
+    // alert(textValue);
+    divProjectDescription.innerHTML = textValue;
+  }
+
+</script>
 </head>
-<body><a name="monobook_topofpage"></a>
+<body onload="javascript:checkNameAndAccesscode()"><a name="monobook_topofpage"></a>
   <div id="globalwrapper">
     <!--PageLeftFmt--><div id="pageleft">
       <div id="pageleftcontent">
@@ -85,34 +116,10 @@ a.varlink { text-decoration:none; }
 <p><br clear="all">
 
 
-<div class="vspace"></div>
-<h2>Research Papers:</h2>
-<p><strong><big><span style="color: purple;">ICSE(4)</span></big></strong> , <strong><big><span style="color: purple;">SANER(1)</span></big> , </strong><strong><big><span style="color: purple;">ASE(1)</span></big></strong>
-- <a class="urllink" href="http://web.engr.illinois.edu/~taoxie/seconferences.htm" rel="nofollow">Information about software conferences</a>
-- <a class="urllink" href="https://scholar.google.com/citations?view_op=top_venues&amp;hl=en&amp;vq=eng_softwaresystems" rel="nofollow">Top conferences in software systems and programming language, according to Google Scholar</a>
-</p>
-<h4>1. Self Learning from Large Scale Code Corpus to Infer Structure of Method Invocations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
-<div class="indent"><span style="color: darkblue;"><strong>Hung PHAN</strong></span>. <strong><big><span style="color: purple;">ASE-LBR 2019</span></big></strong>
-</div>
+<h2>Project Description:</h2>
+<div id="divProjectDescription">
 
-<h4>2. Statistical Learning of API Fully Qualified Names in Code Snippets of Online Forums&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
-<div class="indent"><span style="color: darkblue;"><strong>Hung PHAN</strong></span>, Hoan Nguyen, Ngoc Tran, Linh Truong, Anh Nguyen and Tien Nguyen. <strong><big><span style="color: purple;">ICSE 2018</span></big></strong>
 </div>
-<h4>3. A Deep Neural Network Language Model with Contexts for Source Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
-<div class="indent"> Anh Tuan Nguyen, Trong Van Nguyen,<span style="color: darkblue;"><strong>Hung Dang Phan</strong></span> and Tien N. Nguyen. <strong><big><span style="color: purple;">SANER 2018</span></big></strong>
-</div>
-
-<h4>4. Statistical learning for inference between implementations and documentation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
-<div class="indent"><span style="color: darkblue;"><strong>Hung PHAN</strong></span>, Hoan Anh Nguyen, Tien N. Nguyen and Hridesh Rajan. <strong><big><span style="color: purple;">ICSE-NIER 2017</span></big></strong>
-</div>
-<h4>5. Statistical migration of API usages&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
-<div class="indent"><span style="color: darkblue;"><strong>Hung Dang Phan</strong></span>, Anh Tuan Nguyen, Trong Duc Nguyen and Tien N. Nguyen. <strong><big><span style="color: purple;">ICSE-Demo 2017</span></big></strong>
-</div>
-<h4>6. Exploring API Embedding for API Usages
-and Applications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
-<div class="indent">Trong Duc Nguyen, Anh Tuan Nguyen, <span style="color: darkblue;"><strong>Hung Dang Phan</strong></span>, and Tien N. Nguyen. <strong><big><span style="color: purple;">ICSE 2017</span></big></strong>
-</div>
-
 
             <span style="clear:both;"></span>
         </div><!-- id='contentbody' -->
