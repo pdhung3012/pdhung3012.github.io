@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Template Name: Chershoee
+HTML 5 Template Name: Basic 89
 File: Licence
 Author: OS Templates
 Author URI: https://www.os-templates.com/
@@ -27,15 +27,15 @@ This template can be used for private and commercial websites under the followin
 
     * You can not claim intellectual property rights or exclusive ownership to any of our templates, modified or unmodified. All templates are the property of OS Templates.
 
-    * You are not permitted to place any of our templates either modified or unmodified, on a diskette, CD, website or any other medium for distribution or re-distribution, rent, lease, sale or resale.
+    * You are not permitted to place any of our templates either modified or unmodified, on a diskette, CD, website or any other medium for redistribution, sale or resale.
 
-    * You can not offer our templates for distribution / re-distribution of any kind without prior written consent from us.
+    * You can not offer our templates for re-distribution of any kind without prior written consent from us.
 
-    * You are not permitted to port / convert any of our templates for a CMS, Blog system or any other form of dynamically managed content system for distribution / re-distribution on a diskette, CD, website or any other medium or for rent, lease, sale or resale.
+    * You are not permitted to port / convert any of our templates for a CMS, Blog system or any other form of dynamically managed content system for distribution / re-distribution on a diskette, CD, website or any other medium or for sale or resale.
 
-      You can only port / convert a template for your personal use and if a client asks you to port a template for them for one project / website only.
+      You can only port / convert a template for your personal use and if a client asks you to port a template for them.
 
-    * You can not rent, lease, sell or offer our templates for sale. This also includes offering our templates as part of a product package. You can sell your services but not our templates.
+    * You can not sell or offer our templates for sale. This also includes offering our templates as part of a product package. You can sell your services but not our templates.
 
 
 
