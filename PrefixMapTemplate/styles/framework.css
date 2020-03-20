@@ -26,7 +26,7 @@ We now start to do some math.
 
 Step 2:
 
-First we find out what 30px in percentage is: 30px ÷ 940px × 100 = 3.19148%
+First we find out what 30px in percentage is: 30px ï¿½ 940px ï¿½ 100 = 3.19148%
 
 Step 3:
 
@@ -49,20 +49,20 @@ For the following demonstration we have completed the math for the points 2 & 3 
 WORKING OUT ONE HALF: ( box | margin | box )
 
 Fixed width minus the gutter / margin, divide the result by two and your finished:
-940px - 30px = 910px ÷ 2 = 455px
+940px - 30px = 910px ï¿½ 2 = 455px
 
 To work out the Responsive / fluid width we use the result from the fixed width:
-455px ÷ 940px × 100 = 48.40425%
+455px ï¿½ 940px ï¿½ 100 = 48.40425%
 
 WORKING OUT ONE THIRD: ( box | margin | box | margin | box )
 
 Here we have double the margin, so we need to double the margin measurement in our equation
 
-Fixed width minus 2 × margin, divide the result by three and your finished:
-940px - 60px ÷ 3 = 293.33333px
+Fixed width minus 2 ï¿½ margin, divide the result by three and your finished:
+940px - 60px ï¿½ 3 = 293.33333px
 
 To work out the Responsive / fluid width we use the result from the fixed width:
-293.33333px ÷ 940px × 100 = 31.20567%
+293.33333px ï¿½ 940px ï¿½ 100 = 31.20567%
 
 So now we have an end result that mathematically looks like:
 
@@ -78,15 +78,15 @@ For our example we use the "One Third" result from above, basically one box with
 
 box | margin | box | margin | box   => to =>   box | margin | boxbox
 
-1 box = 940px - 60px ÷ 3 = 293.33333px
+1 box = 940px - 60px ï¿½ 3 = 293.33333px
 
-2 boxes = width of 1 box × 2 + the width of one margin (the margin is no-longer in use so it is added to the width of the two boxes)
+2 boxes = width of 1 box ï¿½ 2 + the width of one margin (the margin is no-longer in use so it is added to the width of the two boxes)
 
-2 boxes = 293.33333px × 2 + 30px = 616.66666px
+2 boxes = 293.33333px ï¿½ 2 + 30px = 616.66666px
 
 The responsive width is found using the above result:
 
-616.66666px ÷ 940px × 100 = 65.60283%
+616.66666px ï¿½ 940px ï¿½ 100 = 65.60283%
 
 So now we have an end result that mathematically looks like:
 
@@ -95,24 +95,24 @@ So now we have an end result that mathematically looks like:
 If you add all of the above sizes together you get => 100%
 */
 
-.one_half, 
-.one_third, .two_third, 
-.one_quarter, .two_quarter, .three_quarter, 
+.one_half,
+.one_third, .two_third,
+.one_quarter, .two_quarter, .three_quarter,
 .one_fifth, .two_fifth, .three_fifth, .four_fifth{display:inline; float:left; margin:0 0 0 3.19148%; list-style:none;}
 
-.one_half:first-child, 
-.one_third:first-child, .two_third:first-child, 
-.one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child, 
+.one_half:first-child,
+.one_third:first-child, .two_third:first-child,
+.one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child,
 .one_fifth:first-child, .two_fifth:first-child, .three_fifth:first-child, .four_fifth:first-child{margin-left:0;}
 
 .first{margin-left:0; clear:left;}
 
-.full_width{display:block; width:100%; clear:both;}
+.full_width{display:block; width:100%; clear:both;height: 700px;text-align: justify;}
 
 /*----------------------------------------------Half Grid-------------------------------------*/
 
 /*
-.one_half{width:455px;} => 455 ÷ 940 = 0.4840425 * 100 = 48.40425
+.one_half{width:455px;} => 455 ï¿½ 940 = 0.4840425 * 100 = 48.40425
 */
 
 .one_half{width:48.40425%;}
@@ -120,8 +120,8 @@ If you add all of the above sizes together you get => 100%
 /*----------------------------------------------Third Grid-------------------------------------*/
 
 /*
-.one_third{width:293.33333px;} => 293.33333 ÷ 940 = 0.3120567 * 100 = 31.20567
-.two_third{width:616.66666px;} => 616.66666 ÷ 940 = 0.6560283 * 100 = 65.60283
+.one_third{width:293.33333px;} => 293.33333 ï¿½ 940 = 0.3120567 * 100 = 31.20567
+.two_third{width:616.66666px;} => 616.66666 ï¿½ 940 = 0.6560283 * 100 = 65.60283
 */
 
 .one_third{width:31.20567%;}
@@ -131,9 +131,9 @@ If you add all of the above sizes together you get => 100%
 /*----------------------------------------------Quarter Grid-------------------------------------*/
 
 /*
-.one_quarter{width:212.5px;} => 212.5 ÷ 940 = 0.2260638 * 100 = 22.60638
-.two_quarter{width:455px;} => 455 ÷ 940 = 0.4840425 * 100 = 48.40425
-.three_quarter{width:697.5px;} => 697.5 ÷ 940 = 0.7420212 * 100 = 74.20212
+.one_quarter{width:212.5px;} => 212.5 ï¿½ 940 = 0.2260638 * 100 = 22.60638
+.two_quarter{width:455px;} => 455 ï¿½ 940 = 0.4840425 * 100 = 48.40425
+.three_quarter{width:697.5px;} => 697.5 ï¿½ 940 = 0.7420212 * 100 = 74.20212
 */
 
 .one_quarter{width:22.60638%;}
@@ -144,10 +144,10 @@ If you add all of the above sizes together you get => 100%
 /*----------------------------------------------Fifth Grid-------------------------------------*/
 
 /*
-.one_fifth{width:164px;} => 164 ÷ 940 = 0.174468 * 100 = 17.4468
-.two_fifth{width:358px;} => 358 ÷ 940 = 0.380851 * 100 = 38.0851
-.three_fifth{width:552px;} => 552 ÷ 940 = 0.587234 * 100 = 58.7234
-.four_fifth{width:746px;} => 746 ÷ 940 = 0.793617 * 100 = 79.3617
+.one_fifth{width:164px;} => 164 ï¿½ 940 = 0.174468 * 100 = 17.4468
+.two_fifth{width:358px;} => 358 ï¿½ 940 = 0.380851 * 100 = 38.0851
+.three_fifth{width:552px;} => 552 ï¿½ 940 = 0.587234 * 100 = 58.7234
+.four_fifth{width:746px;} => 746 ï¿½ 940 = 0.793617 * 100 = 79.3617
 */
 
 .one_fifth{width:17.4468%;}
