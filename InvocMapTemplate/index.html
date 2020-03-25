@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>InvocMap</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="styles/mediaqueries.css" type="text/css" media="all">
+<script src="scripts/jquery.1.9.0.min.js"></script>
+<script src="scripts/jquery-mobilemenu.min.js"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="styles/ie.css" type="text/css" media="all">
+<script src="scripts/ie/css3-mediaqueries.min.js"></script>
+<script src="scripts/ie/ie9.js"></script>
+<script src="scripts/ie/html5shiv.min.js"></script>
+<![endif]-->
+<!-- BEFORE USING THIS FRAMEWORK REMOVE THIS DEMO STYLING - ONLY USED TO EMPHASISE THE DIV CONTAINERS IN THE CONTENT AREA -->
+<style type="text/css">
+div.full_width{margin-top:20px;}
+div.full_width:first-child{margin-top:0;}
+div.full_width div{color:#666666; background-color:#DEDEDE;}
+</style>
+<!-- END DEMO STYLING -->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>Inferring Method Invocation from Context via MachineTranslation</h1>
+    </div>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <nav id="topnav">
+    <ul class="clear">
+      <li class="active first"><a href="index.html">Introduction</a></li>
+      <li><a class="drop" href="#">Approach</a>
+        <ul>
+          <li><a href="#">Method Invocation Abstraction</a></li>
+          <li><a href="#">Reverse Order Algorithm</a></li>
+          <!-- <li><a class="drop" href="#">Level 2 + Drop</a>
+            <ul>
+              <li><a href="#">Level 3</a></li>
+              <li><a class="drop" href="#">Level 3 + Drop</a>
+                <ul>
+                  <li><a href="#">Level 4</a></li>
+                  <li><a href="#">Level 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 3</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </li>
+      <li><a class="drop"  href="#">Evaluation</a>
+        <ul>
+          <li><a href="#">Types of Query</a>
+            <ul>
+              <li><a href="#">Configuration 1</a></li>
+              <li><a href="#">Configuration 2</a></li>
+              <li><a href="#">Configuration 3</a></li>
+            </ul>
+
+          </li>
+
+          <li><a href="#">Research Questions</a>
+            <ul>
+              <li><a href="#">Research Question 1</a></li>
+              <li><a href="#">Research Question 2</a></li>
+              <li><a href="#">Research Question 3</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </li>
+      <li><a href="#">Related Works</a></li>
+      <!-- <li class="last-child"><a class="drop" href="#">Drop 2</a>
+        <ul>
+          <li><a href="#">Level 2</a></li>
+          <li><a href="#">Level 2</a></li>
+          <li><a class="drop" href="#">Level 2 + Drop</a>
+            <ul class="negative">
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li> -->
+    </ul>
+  </nav>
+</div>
+<!-- content -->
+<div class="wrapper row3">
+  <div id="container">
+    <!-- ################################################################################################ -->
+    <div class="full_width clear">
+    <p>  Implementing correct method invocation is an important task forsoftware developers. However, this is challenging work, since thestructure of method invocation can be complicated. In this paper,we propose InvocMap, a code completion tool allows developers toobtain an implementation of multiple method invocations from a list of method names inside code context. InvocMap is able to predictthe nested method invocations which their names didn’t appear in the list of input method names given by developers. To achieve this,we analyze the Method Invocations by four levels of abstraction.We build a Machine Translation engine to learn the mapping fromthe first level to the third level of abstraction of multiple methodinvocations, which only requires developers to manually add localvariables from generated expression to get the final code. We evaluate our proposed approach on six popular libraries: JDK, Android, GWT,Joda-Time, Hibernate, and Xstream. With the training corpus of 2.86 million method invocations extracted from 1000 Java Githubprojects and the testing corpus extracted from 120 online forumscode snippets, InvocMap achieves the accuracy rate up to 84 in F1-score depending on how much information of context provided alongwith method names, which outperforms the state-of-the-art NeuralMachine Translation approach by 40% and shows its potential forauto code completion.
+</p>
+<p>
+  The code and data of PrefixMap are available at <a href="https://tinyurl.com/u3m3yap">here</a>.
+</p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved</p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </footer>
+</div>
+</body>
+</html>
