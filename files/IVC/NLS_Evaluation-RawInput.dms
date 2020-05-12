@@ -1,0 +1,100 @@
+return the char value at index pos+1 for str
+return whether there contains a mapping to key uCode in UnicodeTeX.getMap()
+associate key paramName with value Short.valueOf(value) in paramMap
+print Integer.toHexString(rec.states) for pw
+append item.getAlternateLabel() to xml
+print System.currentTimeMillis()-time to Standard Output
+return the value at key ce.getKey() in ntraceThreshold
+log finer message "got request for: "+filename for logger
+print "Table: "+tablename to Standard Output
+append can_access?iced:iced_unsafe to sb
+add Calendar.DAY_OF_YEAR from idx to cal
+reassign standard output stream to new PrintStream(baos) for System
+return long value of BigInteger.valueOf(96400000).multiply(BigInteger.valueOf(reloadLimitDays))
+return List of pattern.split("\\[[^//]]*\\]") for Arrays
+return whether remoteDomain is equal to doc.attributeValue("from")
+append ", null" to scriptBuffer
+set current context color to hRegion.textAttributes.getEffectColor() in g
+append token.getRawText() to html
+add entry.getKey() to changedKeys
+format now.getTime() into String and append to dateFormatter for SimpleDateFormat
+associate key "headers" with value headers.iterator() in listIdentifiersMap
+return value of new Integer(idAtividateAux) as int for Integer
+return 0 scale and BigDecimal.ROUND_HALF_UP rounding for consumofaturadoMes
+return character array of buf.toString() for buf
+return whether type equals short.class
+return string representation of usd.getSystemUserId() for String
+Run garbage collector for Runtime.getRuntime() for Runtime
+search alarmList for alarm using binary search with mIncreasingTimeOrder comparator for Collections
+return state of mLooper.getThread
+obtain instance of LocalDateTime from val.getYear() val.getMonthOfYear() val.getDayOfMonth(), val.getHourOfDay() val.getMinuteOfHour() for LocalDateTime
+return String representation of searchedElement.getQualifiedName() for searchedElement
+add BigDecimal.valueOf(repaymentScheduleInstallment.getTotal()) to value
+return square root of minDelta for Math
+return absolute pathname for event.getFile()
+return random number with max value iterationWeight for Random
+associate key Keystroke.getKeyStroke(KeyEvent.VK_ENTER, 0) with value "downArrow" in tableComponent.getInputMap()
+flush and end the unit of work for session.getTransaction()
+return whether obj.get("field").isString().stringValue equals fieldName
+return if body.getBlocks().getStatements() is empty
+return new List from index 0 to expressions.size()-1 in expressions
+return current year from new Date
+return -base to the power of 1/exponent from Math
+return the last path component of ((TreeTable)table).getTree().getPathForRow(row) for table
+attempt to establish connection to given jdbcUrl DbUser DbPwd for DriverManager
+return a random number with maximum value colors.length
+add linearLayout.getChildAt(i) to childList
+return whether Intent.ACTION_VIEW equals intent.getAction()
+return whether "en" equals locale.getLanguage()
+return current default locale Collator
+return Long representation of cursor.getLong(colIndex)
+return FileDescriptor object that represents the connection to the File being used by new FileInputStream(filePath)
+return whether mLoader.getClass().getModifiers() is a static Modifier
+convert mTestTime.getText().toString() to Integer
+return String representation of ((TextView)localView).getText()
+begin execution of new Thread(this)
+convert inserted.getLastPathSegment() to Long
+sort response in ascending order for Collections
+return the String name of the Thread.currentThread()
+interrupt Thread.currentThread()
+parse languages to generate a Language Priority List for Locale.LanguageRange
+return whether ((String) convertView.getTag() equals "double"
+return whether rev2.getStrings() equals TestTools.makeSet("sse1_string1","sse1_string2")
+return whether type is Enum
+return whether key.charAt(0) is lower case for Character
+associate key "3" with value new Integer(1)
+return the current auto commit mode for dc.getConnection()
+set the font size of att to 14 for StyleConstrants
+return a color from default key "MenuItem.acceleratorForeground" for UIManager
+return whether Settings.System.RADIO_BLUETOOTH contains char sequence for toggleableRadios
+return the String representation of Environment.getExternalStorageDirectory()
+return current value of default Locale
+build and return a ValidatorFactory instance based on config.buildValidatorFactory()
+return all collection persisters of factory.getMetamodel().collectionPersisters()
+wrap bytes into a buffer for ByteBuffer
+return Integer representation of Integer.valueOf(id)
+return the size of new PropertyCombinations(module.getProperties(),module.getActiveLinkerNames()).collapseProperties()
+convert address to uppercase
+return Class object associated with "com.cladium.emma.rt.RT"
+return the max of 0 and container.height()
+return the minimum of lp.height and height
+return array representation of mIntents with size new Intent(mIntents.size())
+sleep Thread for (long)(ViewConfiguration.getLongPressTimeout()*1.5f)
+parse metaCursor.getString(1) to Integer
+return length of itemTexts.getHelp()
+sleep Thread for MediaNames.PAUSE_WAIT_TIME
+create empty temporary file with name "shareimage" and suffix ".png" for File
+return an Iterator for definition.getValues()
+return the minimum of Math.abs(frame.top = containerCoordsY) and Math.abs(containerCoordsY - frame.bottom)
+return whether there are more elements in encodingCollection.iterator()
+return the max of mPreviewText.getMeasuredWidth() and key.width + mPreviewText.getPaddingLeft() + mPreviewText.getPaddingRight()
+return whether there are more elements in child.getChildren().iterator()
+return whether object.getClass().getName() ends with ".BuddhistCalendar" suffix
+return super class of cls
+return Duration of 10 minutes
+convert ZonedDateTime.ofInstant(calendar.toInstant(), calendar.getTimeZone().toZoneId()) for ZonedDateTime
+create a thread pool that creates new threads as needed but will reuse getTestThreadFactory("Worker")
+return the property path for constrainViolations.iterator().next()
+start a resource transaction for ftSession.getTransaction()
+return the name of the package for klass.getPackage()
+create and return EntityManagerFactory for "options" using Persistence

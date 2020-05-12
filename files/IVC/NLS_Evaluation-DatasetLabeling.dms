@@ -1,0 +1,100 @@
+return the char value at index int for String
+return whether there contains a mapping to key char in Map
+associate key String with value short in Map
+print String in the Printer
+append Label to StringBuffer
+print long to Standard Output
+return the value at key String in Map
+log finer message String for Logger
+print String to Standard Output
+append String to StringBuilder
+add int from int for Calendar
+reassign standard output stream to new PrintStream for System
+return long value of BigInteger multiplied by BigInteger
+return List of String array for Arrays
+return whether String is equal to String
+append String to StringBuffer
+set current context color to Color in Context
+append String to StringBuilder
+add String to ArrayList
+format Date into String and append to StringBuffer for SimpleDateFormat
+associate key String with value Iterator in Map
+return value of Integer as int for Integer
+return int scale and int rounding for BigDecimal
+return character array of String for StringBuffer
+return whether Class equals Class
+return string representation of UserAccount for String
+Run garbage collector for Runtime for Runtime
+search ArrayList for Alarm using binary search with IncreasingTimeOrder comparator for Collections
+return state of Thread for Thread
+obtain instance of LocalDateTime from int int int int int for LocalDateTime
+return String representation of Name for Name
+return BigDecimal of adding BigDecimal
+return square root of double for Math
+return absolute pathname for File
+return random number with max value int for Random
+associate key Keystroke with value String in Map
+flush and end the unit of work for Transaction
+return whether String equals String
+return if Statements array is empty
+return new List from index int to int of List
+return current year from Date
+return int to the power of int from Math
+return the last path component of String for TreeTable
+attempt to establish connection to given URL String String for DriverManager
+return a random number with maximum value int
+add Drawable to ArrayList
+return whether String equals String
+return whether String equals String
+return current default locale Collator
+return Long representation of long
+return FileDescriptor object that represents the connection to the File being used by new FileInputStream
+return whether Modifier array has a static Modifier
+convert String to Integer
+return String representation of Text
+begin execution of new Thread
+convert String to Long
+sort List in ascending order for Collections
+return the String name of the Thread
+interrupt Thread
+parse String to generate a Language Priority List for Locale.LanguageRange
+return whether String equals String
+return whether Set equals Set
+return whether Class is Enum
+return whether char is lower case for Character
+associate key String with value new Integer
+return the current auto commit mode for Connection
+set the font size of MutableAttributeSet to int for StyleConstrants
+return a color from default key String for UIManager
+return whether String contains char sequence for RadioButton
+return the String representation of File
+return current value of default Locale
+build and return a ValidatorFactory instance based on ValidatorFactory
+return all collection persisters of Persistence array
+wrap byte array into a buffer for ByteBuffer
+return Integer representation of int
+return the size of new Property List
+convert String to uppercase
+return Class object associated with String
+return the max of int and int
+return the minimum of double and double
+return array representation of ArrayList with size int
+sleep Thread for long
+parse String to Integer
+return length of Text array
+sleep Thread for long
+create empty temporary file with name String and suffix String for File
+return an Iterator for Definition List
+return the minimum of double and double
+return whether there are more elements in Iterator
+return the max of double and double
+return whether there are more elements in Iterator
+return whether String ends with String suffix
+return super class of this Class
+return Duration of long minutes
+convert Date to ZonedDateTime
+create a thread pool that creates new threads as needed but will reuse ThreadFactory
+return the property path for ConstrainViolation
+start a resource transaction for Transaction
+return the name of the package for Package
+create and return EntityManagerFactory for String using Persistence
