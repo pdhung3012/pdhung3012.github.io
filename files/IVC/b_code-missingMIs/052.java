@@ -264,7 +264,7 @@ class LoaderManagerImpl extends LoaderManager {
             }
             if (mLoader != null) {
                 if (mLoader.getClass().isMemberClass()
-                        && !unknownMethod())) {
+                        && !unknownMethod()) {
                     throw new IllegalArgumentException(
                             "Object returned from onCreateLoader must not be a non-static inner member class: "
                             + mLoader);
