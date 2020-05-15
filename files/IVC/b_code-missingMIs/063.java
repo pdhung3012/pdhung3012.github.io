@@ -121,7 +121,7 @@ public class StringWrapper extends BaseWrapper implements Wrapper
     {
       if (converters.containsKey(type))
         value = converters.get(type).convert(elementValue);
-      else if (type instanceof Class && ( unknownMethod())
+      else if (type instanceof Class && unknownMethod())
         value = Enum.valueOf( (Class) type, elementValue);
       else
         // Should never reach this line - calcConverstionScore should guarantee this.

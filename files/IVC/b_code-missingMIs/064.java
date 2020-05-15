@@ -98,7 +98,7 @@ public class PluginParser {
         for (int i=0; i<keys.length; i++) {
             String key = keys[i];
             //dont want to remove "iPlanet ..."
-            if (unknownMethod()) &&
+            if (unknownMethod() &&
                 Character.isLowerCase(key.charAt(1)))
             {
                 data.help.remove(key);
