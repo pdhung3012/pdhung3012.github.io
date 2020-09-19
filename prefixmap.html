@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>PrefixMap</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="styles/mediaqueries.css" type="text/css" media="all">
+<script src="scripts/jquery.1.9.0.min.js"></script>
+<script src="scripts/jquery-mobilemenu.min.js"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="styles/ie.css" type="text/css" media="all">
+<script src="scripts/ie/css3-mediaqueries.min.js"></script>
+<script src="scripts/ie/ie9.js"></script>
+<script src="scripts/ie/html5shiv.min.js"></script>
+<![endif]-->
+<!-- BEFORE USING THIS FRAMEWORK REMOVE THIS DEMO STYLING - ONLY USED TO EMPHASISE THE DIV CONTAINERS IN THE CONTENT AREA -->
+<style type="text/css">
+div.full_width{margin-top:20px;}
+div.full_width:first-child{margin-top:0;}
+div.full_width div{color:#666666; background-color:#DEDEDE;}
+</style>
+<!-- END DEMO STYLING -->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>Statistical Machine Translation Outperforms Neural Machine Translation in Software Engineering: Why and How</h1>
+    </div>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <nav id="topnav">
+    <ul class="clear">
+      <li class="active first"><a href="index.html">Introduction</a></li>
+      <li><a class="drop" href="#">Approach</a>
+        <ul>
+          <li><a href="#">Statistical Machine Translation</a></li>
+          <li><a href="#">Neural Machine Translation</a></li>
+          <!-- <li><a class="drop" href="#">Level 2 + Drop</a>
+            <ul>
+              <li><a href="#">Level 3</a></li>
+              <li><a class="drop" href="#">Level 3 + Drop</a>
+                <ul>
+                  <li><a href="#">Level 4</a></li>
+                  <li><a href="#">Level 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 3</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </li>
+      <li><a class="drop"  href="#">Evaluation</a>
+        <ul>
+          <li><a href="#">Research Question 1</a></li>
+          <li><a href="#">Research Question 2</a></li>
+          <li><a href="#">Research Question 3</a></li>
+          <li><a href="#">Research Question 4</a></li>
+          <li><a href="#">Research Question 5</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Related Works</a></li>
+      <!-- <li class="last-child"><a class="drop" href="#">Drop 2</a>
+        <ul>
+          <li><a href="#">Level 2</a></li>
+          <li><a href="#">Level 2</a></li>
+          <li><a class="drop" href="#">Level 2 + Drop</a>
+            <ul class="negative">
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li> -->
+    </ul>
+  </nav>
+</div>
+<!-- content -->
+<div class="wrapper row3">
+  <div id="container">
+    <!-- ################################################################################################ -->
+    <div class="full_width clear">
+    <p>  Neural Machine Translation (NMT) is the current trend approach in Natural Language Processing (NLP) to solve the problem of automatically inferring the content of target language given the source language. The ability of NMT is to learn deep knowledge inside lan- guages by deep learning approaches. However, prior works show that NMT has its own drawbacks in NLP and in some research problems of Software Engineering (SE). In this work, we provide a hypothesis that SE corpus has inherent characteristics that NMT will confront challenges compared to the state-of-the-art translation engine based on Statistical Machine Translation. We introduce a problem which is significant in SE and has characteristics that challenges the abil- ity of NMT to learn correct sequences, called Prefix Mapping. We implement and optimize the original SMT and NMT to mitigate those challenges. By the evaluation, we show that SMT outperforms NMT for this research problem, which provides potential directions to optimize the current NMT engines for specific classes of parallel corpus. By achieving the accuracy from 65% to 90% for code tokens generation of 1000 Github code corpus, we show the potential of using MT for code completion at token level.
+</p>
+<p>
+  The code and data of PrefixMap are available at <a href="https://tinyurl.com/u3m3yap">here</a>.
+</p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved</p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </footer>
+</div>
+</body>
+</html>
